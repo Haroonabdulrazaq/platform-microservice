@@ -2,7 +2,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace PlatformService.Dtos
 {
-  public class PlatformCreateDto
+  public class PlatformUpdateDto
   {
     [Required]
     public string Name { get; set; } = string.Empty;
